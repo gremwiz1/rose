@@ -47,7 +47,7 @@ const randomPoint = {
   }
   
   // Функция, осуществляющая поиск искомой точки
-  function findPoint() {
+  export function findPoint() {
     const dimensions = ['x', 'y', 'z'];
     let totalCalls = 0; // общее количество вызовов функции f
     let searchPoints = []; // общий массив для сохранения проверенных точек
